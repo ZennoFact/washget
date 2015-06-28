@@ -1,0 +1,32 @@
+.header{
+	width: 100%;
+	border-bottom: 1px solid #dddddd;
+}
+.header-left{
+	font-size: 26px;
+	margin: 5px;
+	float: left;
+}
+.header-right{
+	float: right;
+}
+.header-right ul li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+}
+
+.clear {
+	clear:both;
+}
+.clearfix {
+	/zoom:1;
+}
+.clearfix:after {
+	content:'';
+	display:block;
+	clear:both;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}

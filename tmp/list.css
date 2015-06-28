@@ -1,0 +1,60 @@
+body{
+	margin: 0px;
+}
+li {
+	list-style: none;
+} 
+.header
+{
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.header-left{
+	font-size: 40px;
+	border-right: 1px solid #dddddd;
+	padding: 25px; 
+}
+.toilet-img img{
+	width: 100%;
+	height: 850px;
+	position: relative;
+}
+.detail{
+	background-color:#696969;
+	position: absolute;
+	top: 500px;
+	width: 180px;
+	color: white;
+	margin-top: 200px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+}
+.location{
+	padding-bottom: 10px;
+}
+.profile{
+	width: 100%;
+	height: 160px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.name{
+	margin-left: 200px;
+	float: left;
+}
+.name p{
+	vertical-align: center;
+	font-size: 25px;
+}
+.prof-img{
+	margin-right: 200px;
+	float: right;
+}
+.prof-img img{
+	height:160px;
+	width: 160px;
+}

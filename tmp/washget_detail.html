@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>washget</title>
+		<link rel="stylesheet" href="washget_detail.css">
+
+<style>
+
+
+	</style>
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+	<script>
+		function initialize() {
+  		var latlng = new google.maps.LatLng(35.681382, 139.766084);
+  		var myOptions = {
+    		zoom: 10,
+    		center: latlng,
+    		mapTypeId: google.maps.MapTypeId.ROADMAP
+  		};
+  		var map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+		}
+	</script>
+
+
+
+
+
+
+	</head>
+	<body onload="initialize();">
+		<div class="header">
+			<div class="header-left">washget</div>
+		</div>
+		<div class="top">
+			<div class="main-img">
+				<img src="http://img.allabout.co.jp/gm/article/378960/1.jpg">
+		
+			</div>
+			<div class="detail-item">
+				<div class="location">現地から50m</div>
+				<div class="price">500円</div>
+			</div>
+		</div>
+		<div class="profile-item">
+			<div class="profile-img">
+				<img src="http://www.fastpic.jp/index.php?module=preview&file=9570907608.png">
+			</div>
+			<div class="profile">
+				<p>前納　一希</p>
+				<p>( 男性 )</p>
+			</div>
+			<div class="message">
+				気軽に借りに来てください！いつも掃除にしているので、清潔さに自信があります＾＾
+			</div>
+		</div>
+		<div class="icon">
+			<ul class="icon">
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div id="map_canvas"></div>
+		<div class="button" style="z-index: 1500;">
+			<img src="http://www.fastpic.jp/index.php?module=preview&file=2213761947.png">
+		</div>
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
